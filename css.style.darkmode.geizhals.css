@@ -1,10 +1,3 @@
-/* ==UserStyle==
-@name           geizhals.de
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    Dark Mode for Geizhals
-@author         Me
-==/UserStyle== */
 
 @-moz-document domain("geizhals.de"), domain("geizhals.at"), domain("geizhals.eu") {
     a, a:visited{
