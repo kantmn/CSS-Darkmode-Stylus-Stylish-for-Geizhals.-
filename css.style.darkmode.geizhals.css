@@ -4,16 +4,22 @@
     }
     
     #gh_afilterbox,
+    .filterbox__list,
     #data > div:nth-child(2){
         background: #115699;
     }
     
     .topcategories__item,
+    .variant__content__content,
     .listview{
         background: #333;
     }
     
     #gh_content_wrapper,
+    tr.xf_tr:nth-child(even) > td,
+    tr.xf_tr:nth-child(even) > th.xf_th,
+    #gh_content_wrapper.gh_content_wrapper--new, #gh_content_wrapper_nonav.gh_content_wrapper--new,
+    .categorylist__footer,
     #reports > div:nth-child(2),
     #links > div:nth-child(2),
     #comparepage__card,
@@ -26,10 +32,13 @@
     div.variant__header__specs-grid div:nth-child(even),
     .listitems__container div.listitem:nth-child(odd),
     #compare__content > tbody:nth-child(1) tr.compareproducts__properties-row:nth-child(even),
+    .variant__content__list-item:nth-child(2n+1),
     .steel_list_container.whitestripe_first .row:nth-child(2n+1){
         background: #666;
     }
 
+    tr.xf_tr:nth-child(odd) > td,
+    tr.xf_tr:nth-child(odd) > th.xf_th,
     #compare__content > tbody:nth-child(1) tr.compareproducts__properties-row:nth-child(odd),
     #steel_list_container\ lazy-list--categorylist div.productlist__product:nth-child(even),
     div.variant__header__specs-grid div:nth-child(odd),
@@ -47,12 +56,14 @@
     .variant__header,
     .variant__content__toc,
     .filter__inner-bg,
+    span.av_hsel,
     div.gh_afilterbox_sec:nth-child(4) > ul:nth-child(2),
     .topcategories__item{
         color: #333;
     }
     
     #gh_afilterbox,
+    .filterbox__list,
     #data > div:nth-child(2),
     div.variant__header__specs-grid div{
         color: #ddd;
@@ -61,6 +72,7 @@
     .variant__content__toc,
     .variant__header,
     .filter__inner,
+    .variant__content__content,
     #data > div:nth-child(2){
         border: 1px solid #333;
     }
