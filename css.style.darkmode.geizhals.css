@@ -1,4 +1,3 @@
-
 @-moz-document domain("geizhals.de"), domain("geizhals.at"), domain("geizhals.eu") {
     a, a:visited{
         color: #eeeae8;
@@ -23,6 +22,7 @@
     .variant__header,
     .variant__content__toc,
     div.results__control:nth-child(5),
+    #steel_list_container\ lazy-list--categorylist div.productlist__product:nth-child(odd),
     div.variant__header__specs-grid div:nth-child(even),
     .listitems__container div.listitem:nth-child(odd),
     #compare__content > tbody:nth-child(1) tr.compareproducts__properties-row:nth-child(even),
@@ -31,6 +31,7 @@
     }
 
     #compare__content > tbody:nth-child(1) tr.compareproducts__properties-row:nth-child(odd),
+    #steel_list_container\ lazy-list--categorylist div.productlist__product:nth-child(even),
     div.variant__header__specs-grid div:nth-child(odd),
     .listitems__container div.listitem:nth-child(even),
     .filter__inner-bg,
