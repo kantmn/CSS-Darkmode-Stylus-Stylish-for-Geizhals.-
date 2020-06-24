@@ -1,0 +1,73 @@
+/* ==UserStyle==
+@name           geizhals.de
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Dark Mode for Geizhals
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("geizhals.de"), domain("geizhals.at"), domain("geizhals.eu") {
+    a, a:visited{
+        color: #eeeae8;
+    }
+    
+    #gh_afilterbox,
+    #data > div:nth-child(2){
+        background: #115699;
+    }
+    
+    .topcategories__item,
+    .listview{
+        background: #333;
+    }
+    
+    #gh_content_wrapper,
+    #reports > div:nth-child(2),
+    #links > div:nth-child(2),
+    #comparepage__card,
+    .results__control__category,
+    .results__inner,
+    .variant__header,
+    .variant__content__toc,
+    div.results__control:nth-child(5),
+    div.variant__header__specs-grid div:nth-child(even),
+    .listitems__container div.listitem:nth-child(odd),
+    #compare__content > tbody:nth-child(1) tr.compareproducts__properties-row:nth-child(even),
+    .steel_list_container.whitestripe_first .row:nth-child(2n+1){
+        background: #666;
+    }
+
+    #compare__content > tbody:nth-child(1) tr.compareproducts__properties-row:nth-child(odd),
+    div.variant__header__specs-grid div:nth-child(odd),
+    .listitems__container div.listitem:nth-child(even),
+    .filter__inner-bg,
+    th.compareproducts__item-container > div:nth-child(1) > div:nth-child(1) > div:nth-child(1),
+    div.listview__item > div:nth-child(1) > button,
+    #lazy-list--offers:nth-child(even){
+        background: #999;
+    }
+    
+    #gh_content_wrapper,
+    #reports > div:nth-child(2),
+    #links > div:nth-child(2),
+    .variant__header,
+    .variant__content__toc,
+    .filter__inner-bg,
+    div.gh_afilterbox_sec:nth-child(4) > ul:nth-child(2),
+    .topcategories__item{
+        color: #333;
+    }
+    
+    #gh_afilterbox,
+    #data > div:nth-child(2),
+    div.variant__header__specs-grid div{
+        color: #ddd;
+    }
+
+    .variant__content__toc,
+    .variant__header,
+    .filter__inner,
+    #data > div:nth-child(2){
+        border: 1px solid #333;
+    }
+}
